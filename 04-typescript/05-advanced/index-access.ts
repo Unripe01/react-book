@@ -6,3 +6,8 @@ const permissions = {
 
 type PermsChar = keyof typeof permissions;
 type PermsNum = typeof permissions[PermsChar];
+
+
+const species = ['rabbit', 'bear', 'fox', 'dog'] as const;
+type Species = typeof species[number]; // 'rabbit' | 'bear' | 'fox' | 'dog'
+

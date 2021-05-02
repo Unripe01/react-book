@@ -23,3 +23,24 @@ export const withResult = <T, A extends any[], E extends Error>(
     }
   }
 };
+
+// class User {
+//   name :string
+// }
+
+// const getUser:  (userId: string) => Promise<User> = async (s) => {
+//   return new Promise<User>( (resolve) => {
+//     const user = new User()
+//     user.name = s
+//     resolve( new User())
+//   } )
+// }
+
+// const func = async () =>{
+
+//   const data1 = withResult(getUser);
+//   const data2 = await data1('aaa');
+//   console.log(data2);
+// }
+// func();
+
