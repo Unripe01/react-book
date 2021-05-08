@@ -5,7 +5,7 @@ import './App.css';
 
 const App: React.FunctionComponent = () => (
   <div className="App">
-    <Greets name="Patty" times={4}>
+    <Greets name={"Patty"} times={4}>
       <span role="img" aria-label="rabbit">🐰</span>
     </Greets>
     <SummaryText>
