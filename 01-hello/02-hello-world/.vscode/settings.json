@@ -1,12 +1,12 @@
 {
-  "editor.formatOnSave": false,
   "editor.lineNumbers": "on",
-  "editor.rulers": [
-    80
-  ],
+  "editor.rulers": [80],
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnType": true,
+
   "npm.packageManager": "yarn"
 }
