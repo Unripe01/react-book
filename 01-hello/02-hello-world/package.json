@@ -79,8 +79,9 @@
   ],
   "simple-git-hooks": {
     "comment": "pre-commit\": \"npx lint-staged",
-    "comment windowsですから。。。": "pre-commit\": \"../lint-staged-around",
-    "comment windowsですから。。。2": "pre-push\": \"../test-around"
+    "comment windowsですから。。。npx simple-git-hooksする前に消すんだよ。": "pre-commit\": \"../lint-staged-around",
+    "comment windowsですから。。。2": "pre-push\": \"../test-around",
+    "pre-commit": "npx cowsay 'hello'"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
