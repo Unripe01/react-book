@@ -8,5 +8,15 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnType": true,
 
-  "npm.packageManager": "yarn"
+  "npm.packageManager": "yarn",
+
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "editor.codeActionsOnSave": 
+  { 
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true,
+  },
+
 }
