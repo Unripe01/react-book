@@ -1,8 +1,8 @@
 import { VFC } from 'react';
 import { Redirect, useLocation, useParams } from 'react-router-dom';
 
-import SchoolCharacters from 'components/templates/SchoolCharacters';
-import { charactersData } from 'data/characters';
+import { charactersData } from '../../data/characters';
+import SchoolCharacters from '../../components/templates/SchoolCharacters';
 
 const EnhancedSchoolCharacters: VFC = () => {
   const { schoolCode } = useParams<{ schoolCode: string }>();

@@ -1,8 +1,8 @@
 import { VFC, useEffect } from 'react';
 import { Redirect, Route, Switch, useHistory, useLocation } from 'react-router';
 
-import Home from 'components/pages/Home';
-import Characters from 'components/pages/Characters';
+import Home from './components/pages/Home';
+import Characters from './components/pages/Characters';
 import './App.css';
 
 const App: VFC = () => {

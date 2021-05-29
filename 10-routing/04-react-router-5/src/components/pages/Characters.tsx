@@ -2,9 +2,9 @@ import { VFC } from 'react';
 import { Redirect, Route, Switch, RouteComponentProps } from 'react-router';
 import { Divider } from 'semantic-ui-react';
 
-import AllCharacters from 'containers/templates/AllCharacters';
-import SchoolCharacters from 'containers/templates/SchoolCharacters';
-import HomeButton from 'containers/molecules/HomeButton';
+import SchoolCharacters from '../../containers/templates/SchoolCharacters';
+import HomeButton from '../../containers/molecules/HomeButton';
+import AllCharacters from '../../containers/templates/AllCharacters';
 
 const Characters: VFC<RouteComponentProps> = ({ match }) => (
   <>

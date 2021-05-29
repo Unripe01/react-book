@@ -1,8 +1,8 @@
 import { VFC } from 'react';
 import { Icon, Item } from 'semantic-ui-react';
 
-import Spinner from 'components/molecules/Spinner';
-import { Character } from 'data/characters';
+import { Character } from '../../data/characters';
+import Spinner from '../molecules/Spinner';
 
 type Props = {
   characters: Character[];
